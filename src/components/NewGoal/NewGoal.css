@@ -1,0 +1,30 @@
+.new-goal {
+  padding: 10px;
+  margin: 30px 0 0;
+  box-shadow: 0 4px 10px black;
+}
+.new-goal input {
+  padding: 15px;
+  margin: 20px;
+  border: none;
+  outline: none;
+}
+
+.new-goal button[type='submit'] {
+  background-color: #0975;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.467);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.new-goal button[type='submit']:hover {
+  background-color: rgba(231, 191, 15, 0.637);
+  color: #fff;
+}
+
+.new-goal input[type='text']:hover {
+  border: 1px solid green;
+  border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  background-color: white;
+}
+
+.goal-list {
+  list-style-type: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.goal-list li {
+  margin: 1rem 0;
+  border: 1px solid red;
+  font-size: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  background-color: #7262;
+
+  padding: 3rem;
+}
